@@ -60,7 +60,7 @@ if ($currentCategory->getId()) {
                             <img
                                 src="<?= $subcategory->getImageUrl() ?>"
                                 alt="<?= $escaper->escapeHtml($subcategory->getName()) ?>"
-                                class="w-20 h-auto object-cover rounded"
+                                class="h-auto object-cover rounded" style="width: 5rem !important;"
                             >
                             <span class="block text-lg font-sm text-primary">
                                 <?= $escaper->escapeHtml($subcategory->getName()) ?>
